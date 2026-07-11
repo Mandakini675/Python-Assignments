@@ -1,0 +1,5 @@
+name,age,phone = input("give biodata name age and mob no.").split()
+print("--Bio Data--")
+print("Name :",name)
+print("Age :",age)
+print("phone:",phone)

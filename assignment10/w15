@@ -1,0 +1,26 @@
+a = int(input("enter two range digit:"))
+b= int(input("enter two range digit:"))
+if a<b:
+   if a%2==0:
+      i=a
+   while i<=b:
+        print(i,end=" ")
+        i+=2
+   else:
+      i=a
+   while i>=b:
+        print(i,end=" ")
+        i-=2
+elif a>b:
+   if a%2==0:
+      i=a
+   while i<=b:
+        print(i,end=" ")
+        i+=2
+   else:
+      i=a
+   while i>=b:
+        print(i,end=" ")
+        i-=2
+else:
+      print("Both numbers are same")
