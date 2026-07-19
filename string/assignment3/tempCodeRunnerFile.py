@@ -1,0 +1,1 @@
+print(sorted(alp.lower()))
