@@ -19,9 +19,9 @@ for i in range(0,a):
     power=power*n
 print(power)
 #------------->
-por=1
+power=1
 i=1
 while i<a :
-    por=por*n
+    power=power*n
     i+=1
 print("by while loop",power)

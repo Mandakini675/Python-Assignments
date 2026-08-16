@@ -25,7 +25,17 @@ if len(s1) != len(s2):
 
 else:
     match = True
-    for p in s1:
-
-        for j in range(len(s)):
-            
+    for ch in s1:
+        c1=0
+        c2=0
+        for j in range(len(s2)):
+            if ch==s1[j]:
+              c1+=1
+        for j in range(len(s2)):
+            if ch==s2[j]:
+                c2+=1
+        if c1!=c2:
+            print("Both Product Codes are Not Matching")
+            break
+    else:
+        print("Both Product Codes are Matching")

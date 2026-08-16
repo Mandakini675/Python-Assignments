@@ -11,8 +11,17 @@ abcabcbb
 Output:
 abc'''
 s= input("enter the string :")
-uniq=""
-for ch in s:
-    if ch not in uniq:
-        uniq+=ch
-print(uniq)
+ans=""
+for i in range(len(s)):
+    temp=""
+    for j in range(i,len(s)):
+       
+       if s[j]in temp:
+          break
+       temp+=s[j]
+
+    if len(temp)>len(ans):
+      ans=temp
+       
+ 
+print(ans)

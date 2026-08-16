@@ -48,9 +48,10 @@ Total Characters: 10
 # for ch in s:
 #     if ch.isalpha():
 #         ans+=ch
-#     if ch.isdigit():
-#         for i in range(int(ch)):
-#             ans+=ch
+        # prev=ch
+#     else :
+#         ans+=chr(ord(prev)+int(ch))
+#             
 # print(ans)
 
 s=input("enter compressed messege:").lower()
@@ -59,6 +60,7 @@ for i in range(len(s)):
     if s[i].isalpha():
         ans+=s[i]
     if s[i].isdigit():
-        for j in range(int(s[i])-1):
-            ans+=s[i-1]
+        # for j in range(int(s[i])-1):
+        #     ans+=s[i-1]
+        ans+=s[i-1]*int(s[i])
 print(ans)

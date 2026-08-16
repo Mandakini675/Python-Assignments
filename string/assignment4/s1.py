@@ -23,12 +23,12 @@ Output:
 AjaySingh'''
 
 s=input("enter =")
-sec=""
+ans=""
 for ch in s:
     if ch==" ":
-        sec+=ch
+        ans+=ch
         continue
     if not ch.isalnum():
         continue
-    sec+=ch
-print(sec)
+    ans+=ch
+print(ans)

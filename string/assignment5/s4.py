@@ -30,12 +30,6 @@ for ch in s:
             count+=1
 
     if count>=high:
-        # if count==high:
-        #     h_v+=ch 
-        #     high = count
-        #     continue
-        # high = count
-        # h_v=ch
         if count > high:
              high = count
              h_v = ch          # Reset

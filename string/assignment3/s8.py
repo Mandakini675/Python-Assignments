@@ -83,6 +83,8 @@ while True:
         case 1:
            rev=""
            s=input("enter string: ")
+           k=s[::-1]
+        # #    print(s)
            for c in s:
               if not c.isalnum():
                 continue
@@ -95,6 +97,8 @@ while True:
                    continue
                new+=rev[i]
                i+=1
+           
+           print(new)
 
         case 2:
             s=input("entr string: ")
@@ -108,11 +112,18 @@ while True:
                    word=""
                 word=s[i]+word 
             ans+=word
-   
-            print("Encrypted Message=",ans)
+            # ans.title()
+            print("Encrypted Message=",ans.title())
         case 3:
+            words = input("Enter words: ").split()
+            result = []
 
-
+            for word in words:
+                if word.lower() not in [x.lower() for x in result]:
+                    result.append(word.capitalize())            
+            result.reverse()
+            print(*result)
+            
         case 4:
            print("Program Closed Successfully")
            break
