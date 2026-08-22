@@ -1,0 +1,10 @@
+# 71Print all substrings. S = "abc" "a, b, c, ab, bc, abc"
+# 72Print all substrings of length n. S = "abc", n = 2 "ab, bc"
+# 73Find the longest palindromic substring. S = "babad" "bab" (or "aba")
+# 74Find the longest substring without repeating characters. S = "abcabcbb" "abc"
+# 75Find the longest common prefix among strings. Strings = ["flower", "flow", "flight"] "fl"
+# 76Find the longest common suffix among strings. Strings = ["baking", "making", "taking"] "king"
+# 77Find the longest substring that appears at both ends. S = "abracadabra" "abra"
+# 78Find the longest mirror-image substring at both ends. S = "aabccbaa" "aab"
+# 79Divide a string into n equal parts. S = "abcdef", n = 3 "ab", "cd", "ef"
+# 80Print list items containing all characters of a given word. List = ["apple", "plea"], Word = "pal" "apple", "plea"

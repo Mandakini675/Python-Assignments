@@ -35,21 +35,39 @@
 # Output:
 # No Equilibrium Index Found
 
+n=int(input("Enter size of an array :"))
+arr=[]
+print("enter value in increaseing order ")
+for i in range(n):
+   print("element :",i+1)
+   arr.append(int(input()))
+print(arr)
+for i in range(1,len(arr)-1):
+      lsum=sum(arr[:i])
+      rsum=sum(arr[i+1:])
+      if lsum==rsum:
+         print("Equlibrium index :",i)
+         break
+else:
+   print("No equlibrium index found")
+
 # ---will do ot later😭
-num = [int(x) for x in input("input here :").split()]
-n=len(num)
-sm1=0
-sm2 =0
-i = 0
-end=n
-while  i< end:
+# num = [int(x) for x in input("input here :").split()]
+# n=len(num)
+# sm1=0
+# sm2 =0
+# i = 0
+
+# end=n
+# while  i< end:
     
-    sm1 = sm1+num[i]
-    sm2 = sm2+num[end-1]
-    # if sm1==sm2:
-    #     print(i+1)
-        # break
-    end-=1
-    i+=1
-if sm1==sm2:
-   print(i+1)
+#     sm1 = sm1+num[i]
+#     sm2 = sm2+num[end-1]
+#     # if sm1==sm2:
+#     #     print(i+1)
+#         # break
+#     end-=1
+#     i+=1
+# if sm1==sm2:
+#    print(i+1)
+

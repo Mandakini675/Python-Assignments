@@ -45,38 +45,126 @@ Odd Numbers Below Main Diagonal = 1
 Boundary Elements:
 1 2 3 6 9 8 7 4
 
-print("=========================================================")
-print("             MATRIX PATTERN DETECTION SYSTEM")
-print("=========================================================")
 
 
+print("MATRIX PATTERN DETECTION SYSTEM")
 while True:
+    print("\n1. Count Even Numbers Above Main Diagonal")
+    print("2. Count Odd Numbers below the main diagonal")
+    print("3. display boundary elements ")
+    print("4. Exit")
+    choice = int(input("Enter your choice: "))
+    match choice:
+        case 1:
+            matrix= []
+            row = int(input("Enter the no. of rows: "))
+            col = int(input("Enter the no. of columns: "))
+            for i in range(row):
+                rows=[]
+                for j in range(col):
+                    rows.append(int(input(f"Enter the element of [{i},{j}]: ")))
+                matrix.append(rows)
+            print(matrix)
+            count =0
+            for i in range(row):
+                for j in range(col):
+                    if (j>i) and (matrix[i][j]%2==0):
+                        count+=1
+                        # print("Numbers are: ", matrix[i][j], end = " ")
+            print("\ncount of even number above main diagonal: ", count)
 
-   print("Menu")
-   print("1. Count Even Numbers Above Main Diagonal")
-   print("2. Count Odd Numbers Below Main Diagonal")
-   print("3. Display Boundary Elements")
-   print("4. Exit")
+        case 2:
+            matrix= []
+            row = int(input("Enter the no. of rows: "))
+            col = int(input("Enter the no. of columns: "))
+            for i in range(row):
+                rows=[]
+                for j in range(col):
+                    rows.append(int(input(f"Enter the element of [{i},{j}]: ")))
+                matrix.append(rows)
+            print(matrix)
+            count = 0
+            for i in range(row):
+                for j in range(col):
+                    if (i>j) and (matrix[i][j] %2 !=0):
+                        count+=1
+                        print("Elements are: ", matrix[i][j], end = " ")
+            print("\ncount of odd below main diagonal are: ", count)
+# sir ka output ayega boundary element ka
+        case 3:
+            matrix= []
+            row = int(input("Enter the no. of rows: "))
+            col = int(input("Enter the no. of columns: "))
+            for i in range(row):
+                rows=[]
+                for j in range(col):
+                    rows.append(int(input(f"Enter the element of [{i},{j}]: ")))
+                matrix.append(rows)
+            print(matrix)
+            for j in range(col):
+                print(matrix[0][j], end=" ")
+            for i in range(1,row):
+                print(matrix[i][col-1], end=" ")
+            for j in range(col-2,-1,-1):
+                print(matrix[row-1][j], end = " ")
+            for i in range(row-2, 0, -1):
+                print(matrix[i][0], end=" ")
+        case 4:
+            print("Exitinggggggggg!!!!")
+            break
+#mera output ayega
+        # case 3:
+        #     matrix= []
+        #     row = int(input("Enter the no. of rows: "))
+        #     col = int(input("Enter the no. of columns: "))
+        #     for i in range(row):
+        #         rows=[]
+        #         for j in range(col):
+        #             rows.append(int(input(f"Enter the element of [{i},{j}]: ")))
+        #         matrix.append(rows)
+        #     print(matrix)
+        #     for j in range(col):
+        #         print(matrix[0][j], end=" ")
+        #     for i in range(1,row):
+        #         print(matrix[i][0], end=" ")
+        #         print(matrix[i][col-1], end=" ")
+        #     for j in range(1,col-1):
+        #         print(matrix[row-1][j], end = " ")
+        case _:
+            print("Invalid choice!!!!")
+
+# print("=========================================================")
+# print("             MATRIX PATTERN DETECTION SYSTEM")
+# print("=========================================================")
+
+
+# while True:
+
+#    print("Menu")
+#    print("1. Count Even Numbers Above Main Diagonal")
+#    print("2. Count Odd Numbers Below Main Diagonal")
+#    print("3. Display Boundary Elements")
+#    print("4. Exit")
    
-   choice = int(input("enter your choice :"))
-   if choice == 4:
-      print("Thank You for Using Matrix  Quality Check System")
-      break
-   r1 = int(input("Enter no of r for Matrix :"))
-   c1 = int(input("Enter NO OF c for Matrix :"))
-   matric = []
-   for i in range(r1):
-       row = [int(x) for x in input("enter elements of row").split()]
-       matric.append(row)
+#    choice = int(input("enter your choice :"))
+#    if choice == 4:
+#       print("Thank You for Using Matrix  Quality Check System")
+#       break
+#    r1 = int(input("Enter no of r for Matrix :"))
+#    c1 = int(input("Enter NO OF c for Matrix :"))
+#    matric = []
+#    for i in range(r1):
+#        row = [int(x) for x in input("enter elements of row").split()]
+#        matric.append(row)
   
-   match choice:
-       case 1:
+#    match choice:
+#        case 1:
              
 
-       case 2:
+#        case 2:
 
 
-       case 3:
+#        case 3:
 
 
-       case _:
+#        case _:

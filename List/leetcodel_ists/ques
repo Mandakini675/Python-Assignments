@@ -1,0 +1,126 @@
+S.NoProblem Name Difficulty LeetCode Link
+1Two Sum Easy https://leetcode.com/problems/two-sum/
+2Remove Duplicates from Sorted Array Easy https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+3Remove Element Easy https://leetcode.com/problems/remove-element/
+4Search Insert Position Easy https://leetcode.com/problems/search-insert-position/
+5Plus One Easy https://leetcode.com/problems/plus-one/
+6Add Binary Easy https://leetcode.com/problems/add-binary/
+7Single Number Easy https://leetcode.com/problems/single-number/
+8Contains Duplicate Easy https://leetcode.com/problems/contains-duplicate/
+9 Intersection of Two Arrays II Easy https://leetcode.com/problems/intersection-of-two-arrays-ii/
+10Move Zeroes Easy https://leetcode.com/problems/move-zeroes/
+11Best Time to Buy and Sell Stock Easy https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+12Maximum Subarray Easy https://leetcode.com/problems/maximum-subarray/
+13Find All Numbers Disappeared in an Array Easy https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
+14Find the Difference of Two Arrays Easy https://leetcode.com/problems/find-the-difference-of-two-arrays/
+15Third Maximum Number Easy https://leetcode.com/problems/third-maximum-number/
+16Sum of All Odd Length Subarrays Easy https://leetcode.com/problems/sum-of-all-odd-length-subarrays/
+17Squares of a Sorted Array Easy https://leetcode.com/problems/squares-of-a-sorted-array/
+18Shortest Unsorted Continuous Subarray Easy https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
+19Missing Number Easy https://leetcode.com/problems/missing-number/
+20Merge Sorted Array Easy https://leetcode.com/problems/merge-sorted-array/
+213Sum Medium https://leetcode.com/problems/3sum/
+223Sum Closest Medium https://leetcode.com/problems/3sum-closest/
+23Subarray Sum Equals K Medium https://leetcode.com/problems/subarray-sum-equals-k/
+24Search in Rotated Sorted Array Medium https://leetcode.com/problems/search-in-rotated-sorted-array/
+25Find First and Last Position of Element in Sorted Array Medium https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+26Sort Colors Medium https://leetcode.com/problems/sort-colors/
+27Merge Intervals Medium https://leetcode.com/problems/merge-intervals/
+28Minimum Size Subarray Sum Medium https://leetcode.com/problems/minimum-size-subarray-sum/
+29Container With Most Water Medium https://leetcode.com/problems/container-with-most-water/
+30Next Permutation Medium https://leetcode.com/problems/next-permutation/
+31Find Peak Element Medium https://leetcode.com/problems/find-peak-element/
+32Kth Largest Element in an Array Medium https://leetcode.com/problems/kth-largest-element-in-an-array/
+33Top K Frequent Elements Medium https://leetcode.com/problems/top-k-frequent-elements/
+34Product of Array Except Self Medium https://leetcode.com/problems/product-of-array-except-self/
+35Find Minimum in Rotated Sorted Array Medium https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+36Search a 2D Matrix Medium https://leetcode.com/problems/search-a-2d-matrix/
+37Set Matrix Zeroes Medium https://leetcode.com/problems/set-matrix-zeroes/
+38Spiral Matrix Medium https://leetcode.com/problems/spiral-matrix/
+39Spiral Matrix II Medium https://leetcode.com/problems/spiral-matrix-ii/
+40 Jump Game Medium https://leetcode.com/problems/jump-game/
+41Find the Duplicate Number Medium https://leetcode.com/problems/find-the-duplicate-number/
+42Longest Increasing Subsequence Medium https://leetcode.com/problems/longest-increasing-subsequence/
+43Subsets Medium https://leetcode.com/problems/subsets/
+44Combination Sum Medium https://leetcode.com/problems/combination-sum/
+45Combination Sum II Medium https://leetcode.com/problems/combination-sum-ii/
+46Permutations Medium https://leetcode.com/problems/permutations/
+47Permutations II Medium https://leetcode.com/problems/permutations-ii/
+48Rotate Image Medium https://leetcode.com/problems/rotate-image/
+49Group Anagrams Medium https://leetcode.com/problems/group-anagrams/
+50Minimum Path Sum Medium https://leetcode.com/problems/minimum-path-sum/
+51Search a 2D Matrix II Medium https://leetcode.com/problems/search-a-2d-matrix-ii/
+52 Insert Interval Medium https://leetcode.com/problems/insert-interval/
+53Unique Paths Medium https://leetcode.com/problems/unique-paths/
+54Unique Paths II Medium https://leetcode.com/problems/unique-paths-ii/
+55Decode String Medium https://leetcode.com/problems/decode-string/
+56Partition Equal Subset Sum Medium https://leetcode.com/problems/partition-equal-subset-sum/
+57Range Sum Query - Immutable Medium https://leetcode.com/problems/range-sum-query---immutable/
+58Maximum XOR of Two Numbers in an Array Medium https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/
+59Longest Repeating Character Replacement Medium https://leetcode.com/problems/longest-repeating-character-replacement/
+60Find K Pairs with Smallest Sums Medium https://leetcode.com/problems/find-k-pairs-with-smallest-sums/
+61Remove K Digits Medium https://leetcode.com/problems/remove-k-digits/
+62Split Array Largest Sum Medium https://leetcode.com/problems/split-array-largest-sum/
+63Arithmetic Slices Medium https://leetcode.com/problems/arithmetic-slices/
+64Wiggle Subsequence Medium https://leetcode.com/problems/wiggle-subsequence/
+65Count and Say Medium https://leetcode.com/problems/count-and-say/
+66 Jump Game II Medium https://leetcode.com/problems/jump-game-ii/
+67Find K Closest Elements Medium https://leetcode.com/problems/find-k-closest-elements/
+68Task Scheduler Medium https://leetcode.com/problems/task-scheduler/
+69Longest Substring Without Repeating Characters Medium https://leetcode.com/problems/longest-substring-without-repeating-characters/
+70Longest Palindromic Substring Medium https://leetcode.com/problems/longest-palindromic-substring/
+71Minimum Path Sum Medium https://leetcode.com/problems/minimum-path-sum/
+72Set Matrix Zeroes Medium https://leetcode.com/problems/set-matrix-zeroes/
+73Search a 2D Matrix Medium https://leetcode.com/problems/search-a-2d-matrix/
+74Rotate Array Medium https://leetcode.com/problems/rotate-array/
+75Contains Duplicate II Medium https://leetcode.com/problems/contains-duplicate-ii/
+76Majority Element II Medium https://leetcode.com/problems/majority-element-ii/
+77Best Time to Buy and Sell Stock II Medium https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+78Maximum Product Subarray Medium https://leetcode.com/problems/maximum-product-subarray/
+79Gas Station Medium https://leetcode.com/problems/gas-station/
+80Candy Medium https://leetcode.com/problems/candy/
+81Trapping Rain Water II Medium https://leetcode.com/problems/trapping-rain-water-ii/
+82Rotate List Medium https://leetcode.com/problems/rotate-list/
+83Binary Tree Inorder Traversal Medium https://leetcode.com/problems/binary-tree-inorder-traversal/
+84Flatten Nested List Iterator Medium https://leetcode.com/problems/flatten-nested-list-iterator/
+85Find All Duplicates in an Array Medium https://leetcode.com/problems/find-all-duplicates-in-an-array/
+86Find All Numbers Disappeared in an Array Medium https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
+87Kth Smallest Element in a Sorted Matrix Medium https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
+88Longest Consecutive Sequence Medium https://leetcode.com/problems/longest-consecutive-sequence/
+89Word Search Medium https://leetcode.com/problems/word-search/
+90Valid Sudoku Medium https://leetcode.com/problems/valid-sudoku/
+91Number of Islands Medium https://leetcode.com/problems/number-of-islands/
+92Surrounded Regions Medium https://leetcode.com/problems/surrounded-regions/
+93Game of Life Medium https://leetcode.com/problems/game-of-life/
+94Shortest Unsorted Continuous Subarray Medium https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
+95Continuous Subarray Sum Medium https://leetcode.com/problems/continuous-subarray-sum/
+96Max Consecutive Ones III Medium https://leetcode.com/problems/max-consecutive-ones-iii/
+97Find Pivot Index Medium https://leetcode.com/problems/find-pivot-index/
+98Toeplitz Matrix Medium https://leetcode.com/problems/toeplitz-matrix/
+99Matrix Diagonal Sum Medium https://leetcode.com/problems/matrix-diagonal-sum/
+100Diagonal Traverse Medium https://leetcode.com/problems/diagonal-traverse/
+101Reshape the Matrix Medium https://leetcode.com/problems/reshape-the-matrix/
+102Max Area of Island Medium https://leetcode.com/problems/max-area-of-island/
+103Rotate Function Medium https://leetcode.com/problems/rotate-function/
+104Subarray Product Less Than K Medium https://leetcode.com/problems/subarray-product-less-than-k/
+105K-diff Pairs in an Array Medium https://leetcode.com/problems/k-diff-pairs-in-an-array/
+106Maximum Sum Circular Subarray Medium https://leetcode.com/problems/maximum-sum-circular-subarray/
+107Find Original Array From Doubled Array Medium https://leetcode.com/problems/find-original-array-from-doubled-array/
+108Find Players With Zero or One Losses Medium https://leetcode.com/problems/find-players-with-zero-or-one-losses/
+109Maximum Erasure Value Medium https://leetcode.com/problems/maximum-erasure-value/
+110Count Nice Pairs in an Array Medium https://leetcode.com/problems/count-nice-pairs-in-an-array/
+111Sum of Subarray Minimums Medium https://leetcode.com/problems/sum-of-subarray-minimums/
+112Median of Two Sorted Arrays Hard https://leetcode.com/problems/median-of-two-sorted-arrays/
+113Trapping Rain Water Hard https://leetcode.com/problems/trapping-rain-water/
+114First Missing Positive Hard https://leetcode.com/problems/first-missing-positive/
+115Largest Rectangle in Histogram Hard https://leetcode.com/problems/largest-rectangle-in-histogram/
+116Sliding Window Maximum Hard https://leetcode.com/problems/sliding-window-maximum/
+117Minimum Window Substring Hard https://leetcode.com/problems/minimum-window-substring/
+118Candy Hard https://leetcode.com/problems/candy/
+119Merge k Sorted Lists Hard https://leetcode.com/problems/merge-k-sorted-lists/
+120 Maximal Rectangle
+121 Longest Consecutive Sequence
+Hard
+Hard
+https://leetcode.com/problems/maximal-rectangle/
+https://leetcode.com/problems/longest-consecutive-sequence/
