@@ -13,14 +13,13 @@ abc'''
 s= input("enter the string :")
 ans=""
 for i in range(len(s)):
-    temp=""
-    for j in range(i,len(s)):
-       
-       if s[j]in temp:
-          break
-       temp+=s[j]
+   temp=""
+   for j in range(i,len(s)):       
+      if s[j]in temp:
+         break
+      temp+=s[j]
 
-    if len(temp)>len(ans):
+   if len(temp)>len(ans):
       ans=temp
        
  
