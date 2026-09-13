@@ -33,13 +33,56 @@
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~>
 # 86Print all permutations of a string without repetition. S = "ab" "ab", "ba"
-s = input("enter the string =")
+s = input("Enter the string: ")
+
+def permutate(s, curr, used):
+    
+    # Base case
+    if len(curr) == len(s):
+        print(curr)
+        return
+
+    # Try every character
+    for i in range(len(s)):
+        
+        if used[i]:
+            continue
+
+        # Choose
+        used[i] = True
+        curr += s[i]
+
+        # Explore
+        permutate(s, curr, used)
+
+        # Backtrack / Undo
+        curr = curr[:-1]
+        used[i] = False
 
 
+used = [False] * len(s)
+
+permutate(s, "", used)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~>
 # 87Print all permutations of a string with repetition. S = "aab" "aab", "aba", "baa"
-s = input("enter the string =")
+s = input("Enter the string: ")
+
+def permutate(s, curr):
+    
+    if len(curr) == len(s):
+        print(curr)
+        return
+
+    for i in range(len(s)):
+        curr += s[i]
+
+        permutate(s, curr)
+
+        curr = curr[:-1]
+
+
+permutate(s, "")
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~>

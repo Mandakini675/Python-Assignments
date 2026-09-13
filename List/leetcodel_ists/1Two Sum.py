@@ -1,3 +1,4 @@
+# 1Two Sum Easy https://leetcode.com/problems/two-sum/
 
 nums = [int(x) for x in input("enter array:").split()]
 target = int(input("enter the target sum :"))
